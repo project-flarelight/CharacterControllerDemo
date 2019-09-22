@@ -16,9 +16,9 @@ public class PlayerIK : MonoBehaviour {
     [SerializeField]
     private float hipOffset = 0f;
     [Range(0,1)][SerializeField]
-    private float hipIkSpeed = 0.28f;
+    private float hipIkSpeed = 0.15f;
     [Range(0,1)][SerializeField]
-    private float footIkSpeed = 0.18f;
+    private float footIkSpeed = 0.2f;
 
     public string leftFootRotationCurve = "RotateLeftFoot";
     public string rightFootRotationCurve = "RotateRightFoot";

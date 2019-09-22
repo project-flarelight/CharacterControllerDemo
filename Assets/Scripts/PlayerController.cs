@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour {
 
     Vector3 forward;
 
-    public float vaultDst;
+    public float vaultDst = 3f;
 
     public bool isGrounded = false;
     bool isFalling = false;
@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour {
     public float gravity = 9.8f;
 
     public float stepHeight = 0.55f;
-    public float stepSpeed = 0.12f;
+    public float stepSpeed = 0.125f;
 
     float dstToGround;
 
