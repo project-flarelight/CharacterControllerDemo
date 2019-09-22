@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour {
     
     float vertical;
     float horizontal;
-    public float acceleration = 5f;
+    public float acceleration = 0.1f;
     float movementMagnitude;
 
     public float rotationSpeed = 0.1f;

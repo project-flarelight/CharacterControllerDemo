@@ -714,7 +714,13 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Ellen_Spine' has translation animation
+      that will be discarded.\n\t'Ellen_Chest' has translation animation that will
+      be discarded.\n\t'Ellen_UpperChest' has translation animation that will be
+      discarded.\n\t'Ellen_Left_UpperLeg' has scale animation that will be discarded.\n\t'Ellen_Left_LowerLeg'
+      has scale animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -763,7 +769,7 @@ ModelImporter:
       firstFrame: 1
       lastFrame: 42
       wrapMode: 0
-      orientationOffsetY: 0
+      orientationOffsetY: 3.57
       level: 0
       cycleOffset: 0.36
       loop: 0
@@ -773,7 +779,7 @@ ModelImporter:
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
+      keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
       heightFromFeet: 0
